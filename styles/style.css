@@ -1,0 +1,150 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	background-color:#000000;
+	background-image:url(../images/Fondo.png);}
+}
+
+.header{
+	margin-bottom:20px;
+}
+
+.decoration{
+	height:1px;
+	display:block;
+	width:100%;
+	background-color:#cacaca;
+	margin-bottom:20px;
+}
+
+.navigation{
+	position:fixed;
+	background-color:#FFFFFF;
+	height:70px;
+	width:100%;
+	border-top:solid 1px #cacaca;
+	bottom:0px;
+}
+
+.navigation-clear{
+	height:90px;
+}
+
+.navigation-wrapper{
+	margin-left:10px;
+	margin-right:10px;
+}
+
+@media screen and (orientation:landscape){
+	.navigation-wrapper{
+		margin-left:50px;
+	}
+}
+
+@media screen and (min-width:768px){
+	.navigation-wrapper{
+		margin-left:70px;
+	}
+}
+
+.navigation-wrapper a:first-child{
+	margin-left:0px;
+}
+
+.navigation-wrapper a:last-child{
+	margin-right:0px;
+}
+
+.navigation-wrapper{
+	margin-top:10px;
+}
+
+.menu-item{
+	float:left;
+	width:18%;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+.nav-item{
+	margin-left:auto;
+	margin-right:auto;
+	float:left;
+	background-size:48px 48px;
+	background-repeat:no-repeat;
+	width:48px;
+	height:48px;
+	display:block;		
+}
+
+.home-nav{			 	  background-image:url(../images/misc/nav_home.png);}
+.home-nav:hover{			background-image:url(../images/misc/nav_homes.png);	opacity:0.9;}
+.home-nav-selected{		 background-image:url(../images/misc/nav_homes.png);}
+
+.blog-nav{			 	  background-image:url(../images/misc/nav_write.png);}
+.blog-nav:hover{			background-image:url(../images/misc/nav_writes.png);	opacity:0.9;}
+.blog-nav-selected{		 background-image:url(../images/misc/nav_writes.png);}
+
+.contact-nav{			   background-image:url(../images/misc/nav_mail.png);}
+.contact-nav:hover{		 background-image:url(../images/misc/nav_mails.png);	opacity:0.9;}
+.contact-nav-selected{	  background-image:url(../images/misc/nav_mails.png);}
+
+.star-nav{				  background-image:url(../images/misc/nav_star.png);}
+.star-nav:hover{		    background-image:url(../images/misc/nav_stars.png);	opacity:0.9;}
+.star-nav-selected{		 background-image:url(../images/misc/nav_stars.png);}
+
+.camera-nav{				background-image:url(../images/misc/nav_camera.png);}
+.camera-nav:hover{		  background-image:url(../images/misc/nav_cameras.png);	opacity:0.9;}
+.camera-nav-selected{	   background-image:url(../images/misc/nav_cameras.png);}
+
+
+
+.logo{
+	padding-top:30px;
+	padding-left:20px;
+}
+
+
+.social-icons{
+	float:right;
+	margin-right:20px;
+	margin-top:-21px;
+}
+
+.social-icons a{
+	margin-left:10px;
+}
+
+
+.facebook-icon{
+	float:left;
+	background-image:url(../images/misc/facebook.png);
+	background-repeat:no-repeat;
+	background-size:27px 27px;
+	width:27px;
+	height:27px;
+	display:block;	
+}
+
+.twitter-icon{
+	float:left;
+	background-image:url(../images/misc/twitter.png);
+	background-repeat:no-repeat;
+	background-size:27px 27px;
+	width:27px;
+	height:27px;
+	display:block;
+}
+
+.dribbble-icon{
+	float:left;
+	background-image:url(../images/misc/dribbble.png);
+	background-repeat:no-repeat;
+	background-size:27px 27px;
+	width:27px;
+	height:27px;
+	display:block;
+}
+
